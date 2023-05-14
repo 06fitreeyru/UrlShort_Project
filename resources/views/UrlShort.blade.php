@@ -20,9 +20,7 @@
     </script>
 
     </script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
-
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    
 
 
 </head>
@@ -44,7 +42,7 @@
                     <div class="col-lg-12">
                         <div class="main-box clearfix">
                             <div class="table-responsive ">
-                                <table class="table table-bordered table-striped" id="example">
+                                <table class="table table-bordered table-striped" >
                                     <tr>
                                         <th scope="col" class=" text-center">#</th>
                                         <th scope="col" class=" text-center">original_url</th>
@@ -72,11 +70,7 @@
             </div>
         </div>
     </main>
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+    
 
 
 </body>
